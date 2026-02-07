@@ -1,0 +1,1 @@
+2026-02-07 20:09:26 - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.users' doesn't exist

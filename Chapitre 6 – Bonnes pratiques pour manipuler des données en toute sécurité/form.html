@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajouter utilisateur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <form action="insert.php" method="POST" class="form">
+        <h2>Ajouter un utilisateur</h2>
+
+        <div class="input-group">
+            <input type="text" name="name" required>
+            <label>Nom</label>
+        </div>
+
+        <div class="input-group">
+            <input type="email" name="email" required>
+            <label>Email</label>
+        </div>
+
+        <button type="submit">Ajouter</button>
+    </form>
+</div>
+
+</body>
+</html>
