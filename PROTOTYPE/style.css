@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: black;
+}
+/* STARS */
+#stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+     width: 100vw;      
+    height: 100vh; 
+}
+/* Form container */
+form {
+    position: relative;
+    z-index: 2;
+    background: white;
+    padding: 40px;
+    width: 400px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    box-shadow: 0 15px 40px rgba(255, 255, 255, 0.2);
+    margin: 50px auto;
+}
+
+/* Title */
+form h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 22px;
+}
+
+/* Labels */
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Inputs */
+form #new {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+form #new:focus {
+    border-color: gray;
+    box-shadow: 0 0 8px rgba(150,150,150,0.5);
+}
+
+/* Button */
+form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover button */
+form button:hover {
+    background: gray;
+}
